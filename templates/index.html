@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake Tweet Detection</title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Tweet Spam Analyser</h2>
+        <textarea id="articleInput" placeholder="Enter some portion of your news article ..."></textarea>
+        <button onclick="analyzeArticle()">Analyze Tweet</button> 
+        <div class="results">
+            <div class="result" id="resultBox"></div>
+            <div class="score" id="score-box"></div>
+        </div>
+
+    </div>
+
+    <script src="../static/script.js" ></script>
+</body>
+</html>
