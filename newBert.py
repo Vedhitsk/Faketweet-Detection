@@ -44,6 +44,7 @@ class TokenDataset(Dataset):
 
 # Load dataset
 dataset = pd.read_csv("tweetsDetectionDataset.csv")
+dataset = dataset[:100]
 # dataset = dataset.sample(frac=0.05)
 
 # print(dataset.head())
@@ -62,7 +63,7 @@ train_texts, test_texts, train_labels, test_labels = train_test_split(dataset['m
 # Set batch size and accumulation steps and epochs
 batch_size = 10
 accumulation_steps = 2
-epochs = 30
+epochs = 1
 
 # Create DataLoader for training data
 train_dataset = TokenDataset(train_texts, train_labels, tokenizer)
