@@ -28,7 +28,7 @@ The results of the model include accuracy metrics for each training approach:
 - **Parallel Training**: 0.96
 
 ## Website
-A Flask-based web application is integrated with the trained model. Users can upload an image of a tweet, and the model will predict its authenticity. The web app is located in the `webapp` directory.
+A Flask-based web application is integrated with the trained model. Users can upload text/sentences of a tweet, and the model will predict its authenticity. The web app is located in the `webapp` directory.
 
 ## Installation
 To set up the project locally:
