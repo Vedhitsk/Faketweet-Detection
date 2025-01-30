@@ -11,7 +11,7 @@ This repository contains a model for detecting fake tweets using a diverse datas
 
 
 ## Overview
-This project aims to detect fake tweets using an image classification model with high accuracy and efficiency.
+This project aims to detect fake tweets using an Text classification model with high accuracy and efficiency.
 
 ## Model Details
 - **Frameworks Used**: BERT, TensorFlow
